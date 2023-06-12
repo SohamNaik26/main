@@ -25,3 +25,16 @@ elif (budget - apple >= 70):
 
 else:
     print("Alexa don't add apples to the cart.")    
+    
+#  3rd question   
+
+num = 18
+if (num < 0):
+    print("Number is negative.")
+elif(num > 0):
+    if(num > 10 and num <= 20):
+        print("Number is between 11 - 20")
+    else:
+        print("Number is greaater than 20")
+else:
+        print("Number is zero.")
