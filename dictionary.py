@@ -19,3 +19,20 @@ print(info.keys ())
 print(info.items())
 for key, values in info.items():
     print(f"The value corresponding to the key {key} is {values}")
+
+
+info.update({"age" : 20})
+info.update({"DOB" : 2001})
+print(info)
+
+info.clear()
+print(info)
+
+empt = {}
+print(empt)
+
+# info.pop('name')
+# print(info)
+
+# info.popitem()
+# print(info)
