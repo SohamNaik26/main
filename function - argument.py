@@ -22,3 +22,8 @@ def average (*numbers):
 
 
 average(5, 6, 7 ,1)
+
+def greet(name):
+    print("Good Day, " + name)
+
+greet("Soham")
